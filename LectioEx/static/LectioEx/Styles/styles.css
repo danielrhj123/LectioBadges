@@ -1,0 +1,154 @@
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+header {
+    background-color: #212121;
+    color: #03DAC4;
+}
+
+header a {
+    text-decoration-style: none;
+    color: white;
+}
+
+#searchbtn {
+    background-color: #212121;
+    color: #03DAC4;
+}
+
+#dashboard_icon {
+
+    font-size: 100px;
+    width: 100px;
+
+}
+
+#Main {
+    padding: 2em;
+}
+
+.row {
+    padding: 2em;
+}
+
+.row hr {
+    background-color: white;
+}
+
+#col-md {
+    border-radius: 10px;
+    border: 2px solid rgba(255, 0, 0, 0.3);
+    background-color: rgba(21, 21, 21, 0.7);
+    height: auto;
+
+    margin: 1em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    /* height: 520px;
+    width: 100px; */
+    /* Full height */
+
+    color: white;
+
+    width: auto;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    mask-image: url("Images/seamless-math-background-vector-7457975.jpg");
+
+    -webkit-animation: mymove 1s ; /* Safari 4.0 - 8.0 */
+    animation: mymove 1s ;
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {bottom: -300px;}
+    to {bottom: 0px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {bottom: -300px;}
+    to {bottom: 0px;}
+}
+
+
+#mathwad {
+    background-image: image(url(Images/seamless-math-background-vector-7457975.jpg));
+
+}
+
+
+.row h3 {
+    text-align: center;
+
+    font-weight: bold;
+
+    font-size: 35px;
+
+    text-decoration: underline; 
+}
+
+.row h5 {
+    text-align: center;
+}
+
+.row p {
+    text-align: center;
+
+    font-weight: 300;
+}
+
+·row a {
+    text-align: center;
+}
+
+.row button {
+    text-align: center;
+    align-content: center;
+    position: relative;
+    
+    width: 100%;
+    margin-top: 2em;
+
+    background-color: #03DAC4;
+    color: #FAFAFA;
+
+    font-weight: bold;
+
+    height: 75px;
+}
+
+#dashboard_badges {
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+#dashboard_icon:hover {
+    transition: 0.2;
+    animation-duration: 0.2;
+    width: 120px;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes biggerImg {
+    0% {width: 100px;}
+    100% {width: 150px;}
+}
+
+/* Standard syntax */
+@keyframes biggerImg {
+    0% {width: 100px;}
+    100% {width: 150px;}
+}
